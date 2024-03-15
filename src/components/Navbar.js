@@ -98,12 +98,12 @@ function Navbar() {
             </li>
             <li>
               <MyLink
-                onClick={() => Navigate("/login")}
+                onClick={() => Navigate("https://irrecordings.com/SourceCode")}
                 spy={true}
                 smooth={true}
                 duration={1000}
                 activeClass="active"
-                to="/login"
+                to="https://irrecordings.com/SourceCode"
               >
                 Login
               </MyLink>
