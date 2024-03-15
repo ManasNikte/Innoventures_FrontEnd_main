@@ -1,0 +1,35 @@
+.page-not-found {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .page-not-found h1,
+  .page-not-found p,
+  .page-not-found .text-center {
+    text-align: center;
+  }
+  
+  .page-not-found img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .page-not-found .btn {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #01bf71;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.2s;
+  }
+  
+  .page-not-found .btn:hover {
+    background-color: #008f56;
+  }
+  
